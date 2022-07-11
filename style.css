@@ -46,7 +46,7 @@
       cursor: pointer;
   }
 
-  .banner-container {
+  .container {
       color: white;
       display: flex;
       width: 100%;
@@ -54,6 +54,7 @@
       align-items: center;
       background-color: black;
       margin-bottom: 100PX;
+
   }
 
   .half-width {
@@ -88,7 +89,7 @@
 
   .text {
       font-size: 22px;
-      margin-bottom: 20px;
+      margin: 20px 0px;
   }
 
   .banner-btn {
@@ -109,10 +110,11 @@
       margin: 60px;
   }
 
-  .section-two h1 {
+  .title {
       text-align: center;
       font-size: 40px;
       font-weight: bold;
+      margin-bottom: 40px;
   }
 
   .cards {
@@ -139,4 +141,36 @@
 
   .card-text {
       text-align: justify;
+  }
+
+  .images {
+      display: flex;
+      width: 50%;
+      margin: 0 100px;
+      border-top: 1px solid red;
+  }
+
+  .images img {
+      padding: 60px 20px;
+      transform: skewY(-15deg);
+  }
+
+  .text-details {
+      width: 50%;
+      margin-top: 0 auto;
+      padding-left: 0px;
+      margin-right: 150px;
+      border-top: 1px solid burlywood;
+
+  }
+
+  .list {
+      margin: 50px 18px;
+      font-size: 18px;
+  }
+
+  h2 {
+      font-size: 35px;
+      padding-top: 50px;
+      margin-top: 20px;
   }
