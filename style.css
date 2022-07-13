@@ -26,6 +26,7 @@
 
   .company-logo h1 {
       font-size: 55px;
+
   }
 
   .menu-items {
@@ -192,9 +193,47 @@
       display: flex;
   }
 
-  section {
+  .workout-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 50%;
+      height: 200px;
+      margin: 0 auto;
+      border: 1px solid gray;
+      border-radius: 10px;
+      color: white;
+      background-image: url(./images/background.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .workout-button {
+      padding: 10px 20px;
+      background-color: beige;
+      border: none;
+      border-radius: 5px;
+      font-size: 18px;
+      font-weight: 600;
+  }
+
+  .workout-button:hover {
+      background-color: blue;
+      cursor: pointer;
+  }
+
+
+  .services-heading {
+      text-align: center;
+      font-size: 22px;
+      font-weight: bold;
+      margin-top: 60px;
+
+  }
+
+  .services-main {
       position: relative;
-      padding: 50px 0px;
+      padding: 25px 0px;
   }
 
   .services1 {
@@ -250,8 +289,31 @@
   .services-container {
       display: flex;
       justify-content: space-around;
-      position: absolute;
+      position: relative;
       width: 95%;
+      margin-bottom: 150px;
+  }
 
+  hr {
+      width: 80%;
+      margin: 0 auto;
+  }
 
+  .bottom {
+      display: flex;
+      justify-content: center;
+  }
+
+  .bottom h4 {
+      padding: 10px;
+      margin-top: 20px;
+  }
+
+  .footer {
+      text-align: center;
+      margin-bottom: 100px;
+  }
+
+  span {
+      color: red;
   }
